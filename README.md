@@ -14,6 +14,18 @@ You've probably already noticed that it's impossible to just copy the files from
 
 So the solution is to split this file into smaller pieces. To do this, we'll use the MacOS `Terminal` and make some commands. Let's go.
 
+### The script
+
+I created an automated script that performs all these steps. Then you just need to run it and follow the commands:
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/frizeiro/bootable-usb/main/scripts/windows.sh)"
+```
+
+Or you can do it step by step.
+
+### The Steps
+
 #### Step 1: Downloading the ISO file
 
 Use the official links to download the desired ISO file:
