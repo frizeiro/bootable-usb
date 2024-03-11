@@ -32,6 +32,11 @@ Use the command above to have a list of your disks and identify the USB one.
 
 In our example, `disk8` is the name of the USB driver entered and we will have to save this information.
 
+Also, you can list only your external physical devices:
+```shell
+diskutil list external physical
+```
+
 #### Step 3: Formatting the USB drive
 
 ```shell
